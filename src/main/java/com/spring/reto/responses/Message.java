@@ -1,10 +1,10 @@
 package com.spring.reto.responses;
 
-public class LoginMessage {
+public class Message {
     private String message;
     private Boolean status;
 
-    public LoginMessage(String message, Boolean status) {
+    public Message(String message, Boolean status) {
         this.message = message;
         this.status = status;
     }
